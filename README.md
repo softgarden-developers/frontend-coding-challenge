@@ -1,6 +1,6 @@
-# 🧪 Frontend Developer Task
+# 🧪 Frontend Developer Coding Challenge
 
-Welcome! This repository provides a scaffold for completing a task as part of our frontend developer hiring process.
+Welcome! This repository provides a scaffold for completing your coding challenge as part of our frontend developer hiring process.
 
 This challenge is tailored for **Mid-Level Developers**, and it is designed to assess your frontend engineering skills, problem-solving ability, and overall code quality.
 

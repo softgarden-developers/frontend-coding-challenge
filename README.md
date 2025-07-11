@@ -1,27 +1,79 @@
-# SgFrontendTechnicalTask
+# 🧪 Frontend Developer Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+Welcome! This repository provides a scaffold for completing a task as part of our frontend developer hiring process.
 
-## Development server
+This challenge is tailored for **Mid-Level Developers**, and it is designed to assess your frontend engineering skills, problem-solving ability, and overall code quality.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🎯 Assignment Objective
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Your task is to build a frontend web application using **React**, **Vue**, or **Angular** that integrates with a **public open-source API**. The application should support full **CRUD functionality**, and demonstrate intermediate-level frontend concepts including:
 
-## Build
+- Pagination with caching
+- State management
+- Form validation
+- Error handling
+- Dockerized deployment
+- Unit testing for core logic
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🧱 Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Technical Requirements
+- **Framework**: Angular
+- **State Management**: NgRx
+- **Forms**: Use a custom validation logic
+- **Docker**: Containerize your app for deployment
+- **Testing**: Add unit tests for key logic
 
-## Running end-to-end tests
+### Functional Requirements
+- Implement **CRUD operations** for a resource (e.g., users, posts, products)
+  - Create
+  - Read (with pagination)
+  - Update
+  - Delete
+- Integrate with a public API such as:
+  - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+  - [Fakestore API](https://fakestoreapi.com/)
+  - [ReqRes](https://reqres.in/)
+- Support client-side or server-side **pagination** with caching
+- Show **loading indicators** and **error messages**
+- Implement **form validation** with proper user feedback
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ✅ How to Score Points
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+You’ll be evaluated based on the following:
+
+| Area                        | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| ✅ CRUD Functionality       | Can perform create, read (with pagination), update, and delete operations   |
+| ✅ Pagination + Caching     | Smooth navigation across pages without unnecessary re-fetching              |
+| ✅ State Management         | Clear separation of logic and scalable state organization                   |
+| ✅ Error Handling           | Graceful handling of failed API requests with user-friendly feedback        |
+| ✅ Form Validation          | Field-level validation with visual indicators and messaging                 |
+| ✅ Optimistic UI Updates    | UI reflects changes immediately and rolls back if the request fails         |
+| ✅ Docker Support           | Build and run the app in a Docker container with minimal setup              |
+| ✅ Code Style & Structure   | Modular, readable, and maintainable code                                    |
+| ✅ Documentation            | Clear README with setup, architecture, and usage instructions               |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-org/your-assignment-repo.git
+cd your-assignment-repo
+
+
+## 🧠 Notes
+
+- You are encouraged to go beyond the minimum and impress with thoughtful UX and engineering.
+- Feel free to use TypeScript or JavaScript.
+- Keep your commits clean and meaningful.
+- Add comments where appropriate to explain complex logic.
